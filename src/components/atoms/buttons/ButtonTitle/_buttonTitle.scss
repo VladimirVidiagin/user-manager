@@ -1,0 +1,15 @@
+.button-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.button-title.primary {
+  color: rgba(255, 255, 255, 1);
+}
+.button-title.secondary {
+  color: rgba(109, 120, 133, 1);
+}
+.button-title.disabled {
+  cursor: not-allowed;
+}

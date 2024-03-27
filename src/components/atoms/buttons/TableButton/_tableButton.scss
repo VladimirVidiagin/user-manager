@@ -1,0 +1,15 @@
+.table-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: rgba(246, 247, 249, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}

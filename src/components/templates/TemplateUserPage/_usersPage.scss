@@ -1,0 +1,6 @@
+@import "../../molecules/Header/variables";
+.users-page {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - $header-height);
+}

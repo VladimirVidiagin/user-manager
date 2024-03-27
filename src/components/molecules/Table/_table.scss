@@ -1,0 +1,10 @@
+.table {
+  width: 100%;
+  height: auto;
+  margin: 32px 0; // TODO: надо переделать на padding
+
+  thead tr,
+  tr:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}

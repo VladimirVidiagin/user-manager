@@ -1,0 +1,8 @@
+.button-section {
+  display: flex;
+  justify-content: right;
+
+  .table-button:not(:last-child) {
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "../src/App/globalStyles";
+
+// атомы
+@import "../src/components/atoms/table/TableRow/tableRow",
+  "../src/components/atoms/table/ColumnTitle/columnTitle.",
+  "../src/components/atoms/table/ContentCell/contentCell",
+  "../src/components/atoms/Input/input";
+
+// кнопки
+@import "../src/components/atoms/buttons/ReusableButton/reusableButton",
+  "../src/components/atoms/buttons/ButtonTitle/buttonTitle",
+  "../src/components/atoms/buttons/TableButton/tableButton";
+
+// молекулы
+@import "../src/components/molecules/Header/header",
+  "../src/components/molecules/Sidebar/sidebar",
+  "../src/components/molecules/SubHeader/subheader",
+  "../src/components/molecules/Table/table",
+  "../src/components/molecules/Table/ButtonSection/buttonSection",
+  "../src/components/molecules/ModalWindow/modalWindow";
+
+// организмы
+@import "../src/components/organisms/UsersInfoBlock/usersInfoBlock";
+
+// шаблоны
+@import "../src/components/templates/TemplateUserPage/usersPage";
+
+//страницы
